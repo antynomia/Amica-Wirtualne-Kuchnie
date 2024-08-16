@@ -37,7 +37,7 @@
     position: absolute;
     width: 1440px;
     height: 600px;
-    background-image: url(./img/rectangle-4.png);
+    background-image: url(./img/kuchnia2.jpg);
     background-size: cover;
     background-position: 50% 50%;
     top: 0;
@@ -63,7 +63,8 @@
   .box .text-wrapper {
     position: relative;
     align-self: stretch;
-    margin-top: -1px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     text-shadow: 0px 2px 3px #0000004c;
     font-family: var(--amica-h3-font-family);
     font-weight: var(--amica-h3-font-weight);
@@ -72,7 +73,7 @@
     letter-spacing: var(--amica-h3-letter-spacing);
     line-height: var(--amica-h3-line-height);
     font-style: var(--amica-h3-font-style);
-    box-shadow: var(--amica-buttons);
+
   }
   
   .box .inspirowane-tym-co {
@@ -87,7 +88,6 @@
     letter-spacing: var(--amica-h1-letter-spacing);
     line-height: var(--amica-h1-line-height);
     font-style: var(--amica-h1-font-style);
-    box-shadow: var(--amica-buttons);
   }
   
   .box .div {
@@ -163,12 +163,23 @@
     object-fit: cover;
   }
   
+.lottie-animation {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 19px;
+    left: 19px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+
   .box .frame-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    padding: 0px 20px;
+    padding: 0px 0px;
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -239,6 +250,7 @@
   
   .box .button-text {
     position: relative;
+    width: -moz-fit-content;
     width: fit-content;
     margin-top: -1px;
     font-family: "Uni Neue-Book", Helvetica;
@@ -270,6 +282,7 @@
     position: relative;
     width: 770px;
     margin-top: -1px;
+    margin-bottom: 0px;
     font-family: "Uni Neue-Regular", Helvetica;
     font-weight: 400;
     color: var(--variable-collection-amica-dark);
@@ -365,7 +378,7 @@
     height: 440px;
     top: -17px;
     left: -17px;
-    background-image: url(./img/img-2.png);
+    background-image: url(./img/kuchnis1.jpg);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -395,7 +408,7 @@
   .box .frame-6 {
     align-items: flex-start;
     gap: 12px;
-    padding: 0px 30px;
+    padding: 0px 0px;
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -417,7 +430,6 @@
     letter-spacing: var(--amica-h4-letter-spacing);
     line-height: var(--amica-h4-line-height);
     font-style: var(--amica-h4-font-style);
-    box-shadow: var(--amica-buttons);
   }
   
   .box .text-wrapper-7 {
@@ -432,7 +444,6 @@
     letter-spacing: var(--amica-h2-letter-spacing);
     line-height: var(--amica-h2-line-height);
     font-style: var(--amica-h2-font-style);
-    box-shadow: var(--amica-buttons);
   }
   
   .box .amica-atoms-button {
@@ -442,7 +453,7 @@
     height: 42px;
     align-items: center;
     gap: 10px;
-    padding: 0px 72px;
+    padding: 0px 0px;
     position: relative;
   }
   
@@ -452,7 +463,7 @@
     height: 440px;
     top: -17px;
     left: -17px;
-    background-image: url(./img/image.png);
+    background-image: url(./img/kuchnia2.jpg);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -463,7 +474,7 @@
     height: 440px;
     top: -17px;
     left: -17px;
-    background-image: url(./img/img.png);
+    background-image: url(./img/kuchnia3.jpg);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -474,7 +485,7 @@
     height: 440px;
     top: -17px;
     left: -17px;
-    background-image: url(./img/img-3.png);
+    background-image: url(./img/kuchnia4.jpg);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -644,7 +655,7 @@
   }
   
   .box .top-menu {
-    position: absolute;
+    position: sticky;
     width: 1440px;
     height: 125px;
     top: 0;

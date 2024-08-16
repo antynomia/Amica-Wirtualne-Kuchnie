@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amica - Wirtualne Kuchnie</title>
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.0/lottie.min.js"></script>
   </head>
   <body>
     <div class="box">
@@ -24,7 +26,7 @@
               <div class="div-2">
                 <div class="amica-elements">
                   <div class="frame-2">
-                    <div class="icon"><img class="img" src="img/sprzet-2.png" /></div>
+                    <div id="sprzety" class="lottie-animation"></div>
                     <div class="frame-3">
                       <div class="text-wrapper-2">PODEJRZYJ</div>
                       <div class="text-wrapper-3">sprzęty Amica w akcji</div>
@@ -33,14 +35,14 @@
                       <div class="rectangle"></div>
                       <div class="frame-4">
                         <div class="button-text">Zobacz</div>
-                        <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                        <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                       </div>
                     </button>
                   </div>
                 </div>
                 <div class="amica-elements">
                   <div class="frame-2">
-                    <div class="icon"><img class="element" src="img/3d-1.png" /></div>
+                    <div class="icon"><img class="img" src="ico-anim/3d.gif" alt="3D"></div>
                     <div class="frame-3">
                       <div class="text-wrapper-2">PRZEJDŹ SIĘ</div>
                       <div class="text-wrapper-3">po swojej kuchni</div>
@@ -49,14 +51,14 @@
                       <div class="rectangle"></div>
                       <div class="frame-4">
                         <div class="button-text">Zobacz</div>
-                        <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                        <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                       </div>
                     </button>
                   </div>
                 </div>
                 <div class="amica-elements">
                   <div class="frame-2">
-                    <div class="icon"><img class="img" src="img/pomysly1-1.png" /></div>
+                    <div class="icon"><img class="img" src="ico-anim/pomysly.gif" alt="Inspiracje"></div>
                     <div class="frame-3">
                       <div class="text-wrapper-2">ZAINSPIRUJ</div>
                       <div class="text-wrapper-3">się projektem!</div>
@@ -65,7 +67,7 @@
                       <div class="rectangle"></div>
                       <div class="frame-4">
                         <div class="button-text">Zobacz</div>
-                        <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                        <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                       </div>
                     </button>
                   </div>
@@ -74,8 +76,8 @@
               <div class="frame-2">
                 <p class="p">
                   <span class="span">Wiesz, że </span>
-                  <span class="text-wrapper-4">kuchnia to serce domu</span>
-                  <span class="span">, więc czule myślisz nad jej wyglądem.</span>
+                  <span class="text-wrapper-4">kuchnia to serce domu,<br></span>
+                  <span class="span">więc czule myślisz nad jej wyglądem.</span>
                 </p>
                 <p class="ogl-dasz-tyle">
                   Oglądasz tyle inspiracji, że teraz to już trudno Ci się zdecydować na jeden projekt! Zbierasz pomysły,
@@ -84,7 +86,7 @@
                   prostszy…
                 </p>
               </div>
-              <img class="rectangle-2" src="img/rectangle-9.png" />
+              <img class="rectangle-2" src="img/img2.jpg" alt="Para remontująca kuchnię">
               <div class="frame-2">
                 <p class="p">
                   <span class="span">Chcesz</span>
@@ -112,7 +114,7 @@
                           <div class="rectangle"></div>
                           <div class="frame-4">
                             <div class="button-text">Zobacz</div>
-                            <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                            <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                           </div>
                         </div>
                       </div>
@@ -132,7 +134,7 @@
                           <div class="rectangle"></div>
                           <div class="frame-4">
                             <div class="button-text">Zobacz</div>
-                            <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                            <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                           </div>
                         </div>
                       </div>
@@ -154,7 +156,7 @@
                           <div class="rectangle"></div>
                           <div class="frame-4">
                             <div class="button-text">Zobacz</div>
-                            <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                            <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                           </div>
                         </div>
                       </div>
@@ -174,7 +176,7 @@
                           <div class="rectangle"></div>
                           <div class="frame-4">
                             <div class="button-text">Zobacz</div>
-                            <img class="amica-atoms-icons" src="img/icons-small.svg" />
+                            <img class="amica-atoms-icons" src="img/ic-more.svg" alt="more">
                           </div>
                         </div>
                       </div>
@@ -186,7 +188,7 @@
             <div class="amica-organisms">
               <div class="frame-7">
                 <div class="frame-8">
-                  <img class="amica-atoms-logo" src="img/image.svg" />
+                  <img class="amica-atoms-logo" src="img/Logo-bg.png" alt="Logo">
                   <div class="div-2">
                     <div class="frame-9">
                       <div class="text-wrapper-8">O nas</div>
@@ -198,7 +200,7 @@
                         <div class="text-wrapper-10">Relacje inwestorskie</div>
                         <div class="text-wrapper-10">Fundusze Europejskie</div>
                         <div class="text-wrapper-10">RODO</div>
-                        <p class="text-wrapper-10">Amica w Polsce i Europie</p>
+                        <div class="text-wrapper-10">Amica w Polsce i Europie</div>
                         <div class="text-wrapper-10">Amica for Living</div>
                         <div class="text-wrapper-10">Zaprojektowane po ludzku</div>
                         <div class="text-wrapper-10">Amica dla innych</div>
@@ -231,7 +233,7 @@
                   </div>
                   <div class="text-wrapper-14">Koszt wg stawki operatora</div>
                   <p class="text-wrapper-14">Pon - Pt<br />8:00 - 18:00</p>
-                  <p class="text-wrapper-14">16.08 możliwy kontakt w godzinach 8:00-16:00</p>
+                  <p class="text-wrapper-14">16.08 możliwy kontakt w godzinach<br>8:00-16:00</p>
                 </div>
               </div>
             </div>
@@ -239,9 +241,10 @@
         </div>
         <div class="top-menu">
           <div class="text-wrapper-15">Wirtualna Kuchnia</div>
-          <img class="amica-atoms-logo-2" src="img/logo.svg" />
+          <img class="amica-atoms-logo-2" src="img/Logo-bg.png" alt="more">
         </div>
       </div>
     </div>
+    <script src="scripts.js"></script>
   </body>
 </html>

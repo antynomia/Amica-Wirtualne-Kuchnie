@@ -1,6 +1,8 @@
 // Initialize animations
 const animations = [
     { id: 'sprzety', path: 'ico-anim/sprzet.json' },
+    { id: 'sprzety', path: 'ico-anim/sprzet.json' },
+    { id: 'sprzety', path: 'ico-anim/sprzet.json' },
 
 ];
 

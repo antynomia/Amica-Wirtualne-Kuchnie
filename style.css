@@ -164,11 +164,9 @@
   }
   
 .lottie-animation {
-    position: absolute;
+    position: relative;
     width: 60px;
     height: 60px;
-    top: 19px;
-    left: 19px;
     object-fit: cover;
     display: inline-block;
 }
